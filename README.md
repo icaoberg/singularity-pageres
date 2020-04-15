@@ -7,7 +7,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/icaoberg/singularity-pageres.svg)](https://github.com/icaoberg/singularity-pageres/stargazers)
 [![GitHub license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/quick-guide-gplv3.en.html)
 
-![Logo](/images/logo.png)
+![Screenshot](/images/lscreenshot-output.png)
 
 Singularity recipe for [pageres-cli](https://github.com/sindresorhus/pageres-cli).
 
