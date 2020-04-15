@@ -16,6 +16,7 @@ IncludeCmd: yes
     
 ####################################################################################
 %appinstall pageres
+    npm install npm@latest -g
     npm install --global pageres-cli
     apt-get -y autoremove
 
