@@ -1,24 +1,21 @@
 Bootstrap: docker
-From: debian:buster
-
-IncludeCmd: yes
+From: alpine:edge
 
 %labels
     AUTHOR icaoberg
-    EMAIL icaoberg@andrew.cmu.edu
+    EMAIL icaoberg@psc.edu
     WEBSITE http://www.andrew.cmu.edu/~icaoberg
-    VERSION 5.0.0
+    VERSION 6.0.0
 
 %post
-    apt-get update && apt-get install -y --no-install-recommends apt-utils
-    apt-get update --fix-missing
-    apt-get install -y nodejs npm
-    
+    PUPPETEER_SKIP_DOWNLOAD='true'
+    export PUPPETEER_SKIP_DOWNLOAD
+    apk add --update nodejs npm
+    npm i puppeteer
+
 ####################################################################################
 %appinstall pageres
-    npm install npm@latest -g
     npm install --global pageres-cli
-    apt-get -y autoremove
 
 %apphelp pageres
     pageres --help
