@@ -4,6 +4,15 @@
 
 Singularity recipe for [pageres-cli](https://github.com/sindresorhus/pageres-cli).
 
+## Building the image using the recipe
+
+### To build the image locally
+Run the script `build.sh` to build image locally.
+
+```
+bash ./build.sh
+```
+
 ---
 [![PSC](http://www.andrew.cmu.edu/user/icaoberg/images/logos/psc.png)](http://www.psc.edu)
 
