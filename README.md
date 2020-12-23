@@ -1,11 +1,4 @@
 # pageres
-[![Hosted](https://img.shields.io/badge/hosted-sylabs.io-green.svg)](https://cloud.sylabs.io/library/icaoberg/default/pageres)
-![Release](https://img.shields.io/badge/release-v5.0.0-green.svg)
-[![Build Status](https://travis-ci.org/icaoberg/singularity-pageres.svg?branch=master)](https://travis-ci.org/icaoberg/singularity-pageres)
-[![GitHub issues](https://img.shields.io/github/issues/icaoberg/singularity-pageres.svg)](https://github.com/icaoberg/singularity-pageres/issues)
-[![GitHub forks](https://img.shields.io/github/forks/icaoberg/singularity-pageres.svg)](https://github.com/icaoberg/singularity-pageres/network)
-[![GitHub stars](https://img.shields.io/github/stars/icaoberg/singularity-pageres.svg)](https://github.com/icaoberg/singularity-pageres/stargazers)
-[![GitHub license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/quick-guide-gplv3.en.html)
 
 ![Screenshot](/images/screenshot-output.png)
 
@@ -56,13 +49,7 @@ Singularity recipe for [pageres-cli](https://github.com/sindresorhus/pageres-cli
   <url> can also be a local file path
 ```
 
-## Disclaimer
-
-[![Wold you buy me some coffee?](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/icaoberg)
-
-I am nothing but a humble programmer creating the container for this wonderful app. 
-
 ---
-[![CBD](http://www.cbd.cmu.edu/wp-content/uploads/2017/07/wordpress-default.png)](http://www.cbd.cmu.edu)
+[![PSC](http://www.andrew.cmu.edu/user/icaoberg/images/logos/psc.png)](http://www.psc.edu)
 
-Copyleft © 2020 [icaoberg](http://www.andrew.cmu.edu/~icaoberg) at the [Computational Biology Department](http://www.cbd.cmu.edu) in [Carnegie Mellon University](http://www.cmu.edu)
+[icaoberg](http://www.andrew.cmu.edu/~icaoberg) at the [Pittsburgh Supercomputing Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).
