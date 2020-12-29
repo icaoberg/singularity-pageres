@@ -13,6 +13,13 @@ Run the script `build.sh` to build image locally.
 bash ./build.sh
 ```
 
+## Alternative
+```
+spack install npm
+spack load npm
+npm install -g pageres-cli
+```
+
 ---
 [![PSC](http://www.andrew.cmu.edu/user/icaoberg/images/logos/psc.png)](http://www.psc.edu)
 
